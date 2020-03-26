@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>블랙잭 가이드북 - 모드 설명</title>
+	<link rel="stylesheet" type="text/css" href="DetailStylesheet.css">
+</head>
+
+<body>
+	<a href="../index.html"><h1 id="title" style="color: black;">제5인격 블랙잭 모드 가이드</h1></a>
+	<div id="blockgrid">
+		<div id="categories">
+			<h3 id="guide">블랙잭 가이드</h3>
+			<div id="modes">
+				<h4 class="page1" onclick="Show1();">모드 소개</h4>
+				<div class="HidePage1">
+					<h4 onclick="Hide1();">모드 소개</h4>
+					<ul>
+						<li><span><a href="ExplainProcess.html">프로세스 설명</a></span></li>
+					</ul>
+				</div>
+			</div>
+			<div id="cards">
+				<h4 class="page2" onclick="Show2();">카드 소개</h4>
+				<div class="HidePage2">
+					<h4 onclick="Hide2()">카드 소개</h4>
+					<ul>
+						<li> <span> <a href="RevealCard.html">엿보기 카드</a> </span> </li>
+						<li> <span> <a href="ExchangeCard.html">교환 카드</a> </span> </li>
+						<li> <span> <a href="ShuffleCard.html">셔플 카드</a> </span> </li>
+						<li> <span> <a href="Passcard.html">패스 카드</a> </span> </li>
+						<li> <span> <a href="DiscardCard.html">포기 카드</a> </span> </li>
+						<li> <span> <a href="AccelerateCard.html">가속 카드</a> </span> </li>
+						<li> <span> <a href="RevealCard2.html">투시 카드</a> </span> </li>
+					</ul>
+				</div>
+			</div>
+			<div id="characters">
+				<h4 class="page3" onclick="Show3()">캐릭터 소개</h4>
+				<div class="HidePage3">
+					<h4 onclick="Hide3()">캐릭터 소개</h4>
+					<ul>
+						<li> <span><a href="RecommendChr.html">캐릭터 추천</a></span> </li>
+						<li> <span><a href="STearChr.html">1티어</a></span> </li>
+						<li> <span><a href="ATearChr.html">2티어</a></span> </li>
+						<li> <span><a href="BTearChr.html">3티어</a></span> </li>
+						<li> <span><a href="CTearChr.html">4티어</a></span> </li>
+						<li> <span><a href="DTearChr.html">5티어</a></span> </li>
+					</ul>
+				</div>
+			</div>
+			<div id="NumericalValue">
+				<h4 class="page4" onclick="Show4()">블랙잭 관련 수치</h4>
+				<div class="HidePage4">
+					<h4 onclick="Hide4()">블랙잭 관련 수치</h4>
+					<ul>
+						<li><span><a href="AquireQuantity.html">블랙잭 점수 획득량</a></span></li>
+						<li><span><a href="DecodeSpeed.html">해독속도 정리표</a></span></li>
+						<li><span><a href="TreatSpeed.html">자힐속도 정리표</a></span></li>
+					</ul>
+				</div>
+			</div>
+			<h3 id="links">공략글</h3>
+			<div id="TargetLetter">
+				<h4 class="page5" onclick="Show5()">공략글</h4>
+				<div class="HidePage5">
+					<h4 onclick="Hide5()">공략글</h4>
+					<ul>
+						<li> <span> <a href="https://cafe.naver.com/identity5/2340182">블랙잭 포인트 획득량</a></span> </li>
+						<li> <span> <a href="https://cafe.naver.com/identity5/2346281">블랙잭 생존자 티어표</a> </span> </li>
+						<li> <span> <a href="https://cafe.naver.com/identity5/2353845">블랙잭 카드 사용방법</a> </span> </li>
+						<li> <span> <a href="https://cafe.naver.com/identity5/2359482">블랙잭 초반 스타트</a> </span> </li>
+						<li> <span> <a href="https://cafe.naver.com/identity5/2364772">블랙잭 중반 플레이</a> </span> </li>
+						<li> <span> <a href="https://cafe.naver.com/identity5/2370727">블랙잭 후반 마무리</a> </span> </li>
+						<li> <span> <a href="https://cafe.naver.com/identity5/2378956">블랙잭 도주용 판자</a> </span> </li>
+						<li> <span> <a href="https://cafe.naver.com/identity5/2384763">블잭 21로 살아남기</a> </span> </li>
+						<li> <span> <a href="">블랙잭 21 저지하기<br>(미완성)</a> </span> </li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="contents">
+			<h2 class="first">블랙잭 일반 라운드 진행</h2>
+			<br>각각의 일반 라운드는 패 돌리기, 분산, 변신, 추격, 결산의 5단계로 진행됩니다.<br>
+
+				<h3>패 돌리기</h3>
+				패 돌리기 시 블랙잭은 모든 참가자들에게 패 한장을 돌립니다.<br>
+				모든 참가자는 움직일 수 없으며, 맵에는 해독기가 존재하지 않습니다. <br>
+
+				<h3>분산</h3>
+				분산이 시작되면 맵상에 해독기가 나타납니다.<br>
+				또한 분산 시간 동안에는 시스템이 감시자가 될 플레이어를 결정합니다.<br>
+				분산은 대략 5초 정도의 시간동안 진행되며,
+				이 기간동안 모든 참가자는 움직일 수 있으며 해독을 통해 칩을 획득할 수 있습니다. 다만 아이템의 사용은 불가능합니다.<br>
+
+				<h3>변신</h3>
+				변신은 10초동안 진행됩니다.<br>
+				변신이 시작되면 가장 높은 점수를 가진 플레이어는 감시자로 변신합니다.<br>
+				해당 플레이어는 변신 시간동안 움직일 수 없으며, 그 외 플레이어는 이동 및 해독이 가능합니다. 다만 마찬가지로 아이템은 사용할 수 없습니다.<br>
+
+				<h3>추격</h3>
+				추격은 최장 2분동안 진행됩니다.<br>
+				감시자는 생존자에게 피해를 입힘으로써 칩을 획득할 수 있으며, 감시자는 추격 시작 직후 5초동안과 게임 시작 55초 이후 5초간 현재 맵에 존재하는 생존자(기계가 존재하는 경우 기계 포함)의 위치를 오라로 감지할 수 있습니다.<br>
+				감시자가 생존자를 눕힌 경우 감시자는 다른 생존자를 잡는 대신 눕힌 생존자를 듦으로써 추격 단게를 즉시 종료시키고 생존자가 자신의 패에서 카드를 1장 뽑도록 할 수 있습니다.<br>
+				또한, 생존자가 카드를 뽑는 시간 동안에는 카드 및 아이템의 사용이 불가능하며, 맵에 설치된 모든 아이템은 탐사원의 자석을 제외하고 모두 사라집니다.<br>
+
+				<h3>결산</h3>
+				결산 단계에서 21점을 넘긴 플레이어는 탈락합니다. 탈락한 플레이어의 패는 모두 카드함으로 돌아갑니다. <br>
+				인게임 인터페이스 상으로는 탈락한 플레이어의 패를 보여주는 시간이 존재하나, 이 시간동안 실제로 확인하는 것은 불가능합니다.<br>
+				결산 단계가 끝나면 다음 라운드가 진행됩니다.<br>
+			<h2>블랙잭 스페셜 턴 진행</h2>
+				<h3>21점 저격 턴</h3>
+				1명 이상의 참가자가 21점에 도달한 경우 이후의 모든 단계를 건너뛰고 21점 저격 턴이 진행됩니다.<br>
+				21점 저격 단계는 1분동안 지속되며 해당 단계가 끝나고 결산 단계에 이르렀을 때 해당 참가자가 여전히 21점이라면 해당 참가자의 승리로 판이 종료됩니다. 그렇지 않은 경우 다음 라운드가 진행됩니다.<br>
+				추격 단계 진행 중 1명 이상의 참가자가 21점에 도달한 경우 결산 단계를 건너뛰고 21점 저격 턴이 진행됩니다.<br>
+				<h3>결승 턴</h3>
+				판에 2명의 플레이어만 존재할 경우 결승 턴이 진행됩니다.<br>
+				결승 턴은 추격 단계가 최장 60초동안 진행됩니다.<br>
+				결승 턴에서 감시자가 생존자를 쓰러뜨리는 데 성공하면 약간의 시간 이후 현재 카드로 즉시 결산을 진행할지 또는 생존자가 자신의 패 한장을 뽑고 결산을 진행할지에 대해 10초의 시간동안 결정할 수 있습니다.<br>
+		</div>
+	</div>
+	<script src="../index.js"></script>
+</body>
+</html>
