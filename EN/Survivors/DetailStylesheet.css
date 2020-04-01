@@ -1,0 +1,137 @@
+
+/*tag css*/
+body{
+	background-color:#E0E0E0;
+	margin: 0px;
+	font-family: "Noto Sans KR", sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: #828282;
+}
+
+h3{
+	border-bottom:2px dashed gray;
+}
+
+h1{
+	padding-left: 30px;
+	color:black;
+}
+
+ul .last{
+	border-bottom: 3px dotted gray;
+}
+
+img{
+	width: 670px; height:220px;
+}
+table, td, th{
+	border:1px solid gray;
+	border-collapse:collapse;
+}
+td{
+	text-align: center;
+}
+table{
+	text-align:center;
+}
+
+/*id css*/
+#title{
+	border-bottom: 3px solid gray;
+	padding-bottom: 30px;
+	margin-bottom:0px;
+}
+
+#blockgrid{
+	display: grid;
+	grid-template-columns: 230px 1fr;
+	border-bottom: 3px solid gray;
+	margin-bottom:50px;
+}
+
+.SuvTier{
+	width: 630px;
+	height: 300px;
+}
+
+/* categories css*/
+#categories{
+	border-right: 3px solid gray;
+}
+
+#categories h3{
+	padding:20px;
+	margin:0px;
+}
+
+#categories h4{
+	cursor: pointer;
+	padding:10px;
+	padding-left: 20px;
+	margin: 0px;
+	color: #646464;
+	border-bottom: 3px dotted gray;
+}
+
+#categories ul{
+	display: none;
+}
+
+#categories h4 .last{
+	border-bottom:2px solid gray;
+	padding-bottom:20px;
+}
+
+#categories .page5{
+	border:none;
+}
+
+#Figure{
+	border-bottom:2px solid gray;
+}
+
+/* contents css */
+#contents{
+	padding: 20px 30px 150px 30px;
+}
+
+#contents p{
+	padding-bottom: 20px;
+	margin:0px;
+}
+
+#contents h2:not(.first){
+	border-top:2px solid gray;
+	padding-top: 20px;
+}
+
+#contents .first{
+	margin:0px;
+}
+#contents h4{
+	border-bottom:2px dotted gray;
+}
+
+/*HidePage css*/
+.HidePage1{
+	display: none;
+	border-bottom: 2px dashed gray;
+}
+.HidePage2{
+	display: none;
+	border-bottom: 2px dashed gray;
+}
+.HidePage3{
+	display: none;
+	border-bottom: 2px dashed gray;
+}
+.HidePage4{
+	display: none;
+	border-bottom: 2px dashed gray;
+}
+.HidePage5{
+	display: none;
+}

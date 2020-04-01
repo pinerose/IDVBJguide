@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>IDVBJ guide - the process</title>
+	<link rel="stylesheet" type="text/css" href="DetailStylesheet.css">
+</head>
+
+<body>
+	<a href="../index.html"><h1 id="title" style="color: black;">IDV Blackjack guide</h1></a>
+	<div id="blockgrid">
+		<div id="categories">
+			<h3 id="guide">BJ guide</h3>
+			<div id="modes">
+				<h4 class="page1" onclick="Show1();">Gameplay</h4>
+				<div class="HidePage1">
+					<h4 onclick="Hide1();">Gameplay</h4>
+					<ul>
+						<li><span><a href="ExplainProcess.html">BJ Process</a></span></li>
+					</ul>
+				</div>
+			</div>
+			<div id="cards">
+				<h4 class="page2" onclick="Show2();">Item cards</h4>
+				<div class="HidePage2">
+					<h4 onclick="Hide2()">Item cards</h4>
+					<ul>
+						<li> <span> <a href="../cards/RevealCard.html">Reveal card(cards)</a> </span> </li>
+						<li> <span> <a href="../cards/ExchangeCard.html">Exchange card</a> </span> </li>
+						<li> <span> <a href="../cards/ShuffleCard.html">Shuffle card</a> </span> </li>
+						<li> <span> <a href="../cards/Passcard.html">Pass card</a> </span> </li>
+						<li> <span> <a href="../cards/DiscardCard.html">Discard card</a> </span> </li>
+						<li> <span> <a href="../cards/AccelerateCard.html">Accelerate card</a> </span> </li>
+						<li> <span> <a href="../cards/RevealCard2.html">Reveal card(Players)</a> </span> </li>
+					</ul>
+				</div>
+			</div>
+			<div id="Survivors">
+				<h4 class="page3" onclick="Show3()">Survivor's Tier</h4>
+				<div class="HidePage3">
+					<h4 onclick="Hide3()">Survivor's Tier</h4>
+					<ul>
+						<li> <span><a href="../Survivors/SuvTierList.html">Survivor's Tier List</a></span> </li>
+						<li> <span><a href="../Survivors/STierSuv.html">S Tier</a></span> </li>
+						<li> <span><a href="../Survivors/ATierSuv.html">A Tier</a></span> </li>
+						<li> <span><a href="../Survivors/BTierSuv.html">B Tier</a></span> </li>
+						<li> <span><a href="../Survivors/CTierSuv.html">C Tier</a></span> </li>
+						<li> <span><a href="../Survivors/DTierSuv.html">D Tier</a></span> </li>
+						<li> <span><a href="../Survivors/FTierSuv.html">F Tier</a></span> </li>
+						<li> <span><a href="../Survivors/UnreleasedSuv.html">Unreleased</a></span></li>
+					</ul>
+				</div>
+			</div>
+			<div id="Hunters">
+				<h4 class="page4" onclick="Show4()">Hunter's Tier</h4>
+				<div class="HidePage4">
+					<h4 onclick="Hide4()">Hunter's Tier</h4>
+					<ul>
+						<li><span><a href="../Hunters/HunTierList.html">Hunter's Tier List</a></span></li>
+						<li><span><a href="../Hunters/STierHunter.html">S Tier</a></span></li>
+						<li><span><a href="../Hunters/ATierHunter.html">A Tier</a></span></li>
+						<li><span><a href="../Hunters/BTierHunter.html">B Tier</a></span></li>
+						<li><span><a href="../Hunters/CTierHunter.html">C Tier</a></span></li>
+						<li><span><a href="../Hunters/DTierHunter.html">D Tier</a></span></li>
+						<li><span><a href="../Hunters/FTierHunter.html">F Tier</a></span></li>
+						<li><span><a href="../Hunters/UnreleasedHunter.html">Unreleased</a></span></li>
+					</ul>
+				</div>
+			</div>
+			<div id="Figure">
+				<h4 class="page5" onclick="Show5()">Figures</h4>
+				<div class="HidePage5">
+					<h4 onclick="Hide5()">Figures</h4>
+					<ul>
+						<li><span><a href="../Figures/AcquireQuantity.html">AcquirePoints</a></span></li>
+						<li><span><a href="../Figures/DecodeSpeed.html">DecodeSpeed</a></span></li>
+						<li><span><a href="../Figures/TreatSpeed.html">TreatSpeed</a></span></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="contents">
+			<h2 class="first">Regular Round</h2>
+			<h3>1. Deal</h3>
+			Players are unable to move and Blackjack will deal each player a Card.<br>
+			When Blackjack deal each player a Card, the Cipher Machines will spawn in Map immediately.
+			<br>
+
+			<h3>2. Split</h3>
+			This stage lasts 5 seconds. players are able to move. <br>
+			The goal is collecting chips by decoding Cipher machines.<br>
+
+			<h3>3. Transform</h3>
+			The player with the highest points becomes the Hunter and will be unable to move until the transform is complete, while other players are free to move around. <br>
+			this stage lasts 10 seconds. <br>
+
+			<h3>4. Pursuit</h3>
+			This stage lasts for up to 2 minutes. <br>
+			During this stage, the Hunter should try to knock down as many Survivors to gain more Chips(Hunters can gain 50 chips when he/she knock down a Survivors), and make a Survivor draw a Card from his Hand. <br>
+			At the start and 65-seconds mark of each round, the Hunter is able to see all Survivors on the entire Map for a period of time.<br>
+
+			<h3>5. Settlement</h3>
+			This is the Round Settlement stage. <br> 
+			Players exceeding 21 points will be eliminated and their Cards will be returned to deck. <br>
+			After the Settlement, the next round will begin.<br>
+
+			<h2>Special Round</h2>
+			<h3>Blackjack</h3>
+			When a player reaches 21 points at any time, the round will end immediately and skip the Settlement stage for a Special Round : "Blackjack".<br>
+			This round will last for up to 1 minute. If the player is able to retain 21 points for the entire duration, he/she will automatically win the round;<br>
+			otherwise, the Settlement stage will begin and the next round will start after that.<br>
+
+			<h3>Deciding round</h3>
+			When there are only 2 players left, they will enter the "Deciding Round".<br>
+			This round lasts for up to 1 minutes.<br>
+			In the Deciding Round, after the Hunter knocks down the Survivor, the Hunter can choose to end the round immediately or ask the Survivor to draw a Card and then enter the Settlement stage.<br>
+			Even if any player reach 21 points in this round, the round won't end.<br>
+		</div>
+	</div>
+	<script src="../index.js"></script>
+</body>
+</html>
